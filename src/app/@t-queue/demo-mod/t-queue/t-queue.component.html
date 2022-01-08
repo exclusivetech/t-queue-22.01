@@ -1,0 +1,40 @@
+<p>t-queue testing</p>
+<div>
+    <div class="byrow">
+        <p>manual controls</p>
+        <button (click)="addElem()">add element</button><br />
+        <button (click)="delElem()">rem element</button><br />
+        <button (click)="firstElem()">first element</button><br />
+        <button (click)="lastElem()">last element</button><br />
+        <br /><hr /><br />
+        <button (click)="enqueueSymStart()">start enqueue sym</button><br />
+        <button (click)="symulationStop()">stop sym</button><br />
+        <br /><hr />
+        <p>-- queue --<br />
+            -- {{_queue.qstatusGet()}} --</p>
+        <button (click)="_queue.qstatusSet('AWAIT')">queue AWAIT</button><br />
+        <button (click)="_queue.qstatusSet('RUNNING')">queue RUN</button><br />
+    </div>
+    <div class="byrow">
+        <p>monitor queue -old-</p>
+        <div *ngFor="let qel of _queue.queue()">
+            {{qel.id}} - {{qel.name}}
+        </div>
+    </div>
+    <div class="byrow">
+        <p>monitor async queue</p>
+        <div *ngFor="let qel of _queue.queue$() |async">
+            {{qel.id}} - {{qel.name}}
+        </div>
+    </div>
+    <div class="byrow">
+        <p>messages</p>
+        <p>{{_workingElement}}</p>
+        <hr />
+        <p>{{_symMessage}}</p>
+        <hr />
+        <p>{{_delMessage}}</p>
+        <hr />
+        <p>{{_message}}</p>
+    </div>
+</div>
