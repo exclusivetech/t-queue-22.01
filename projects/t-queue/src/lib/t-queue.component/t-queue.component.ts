@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { map, Observable } from 'rxjs';
-import { FiFoQueueSym } from 'src/app/@t-queue/t-queue.class';
+import { FiFoQueueSym } from '../t-queue.class';
 
 
 interface DEBUGCOMPONENT {
@@ -13,7 +13,7 @@ interface DEBUGCOMPONENT {
  */
 
 @Component({
-  selector: 'app-t-queue',
+  selector: 'ext-t-queue',
   templateUrl: './t-queue.component.html',
   styleUrls: ['./t-queue.component.scss']
 })

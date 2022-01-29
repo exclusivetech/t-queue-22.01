@@ -18,6 +18,12 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
+    "paths": {
+      "t-queue": [
+        "dist/t-queue/t-queue",
+        "dist/t-queue"
+      ]
+    },
     "lib": [
       "es2020",
       "dom"

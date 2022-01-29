@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TQueueComponent } from './t-queue/t-queue.component';
-
+import { TQueueComponent } from './t-queue.component/t-queue.component';
 
 
 @NgModule({

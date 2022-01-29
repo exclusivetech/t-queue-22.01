@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
-import { TQueueModule } from '../@t-queue/demo-mod/t-queue.module';
+import { TQueueModule } from 'projects/t-queue/src/public-api';
 // this is for compiler
 export { HomeComponent } from './home/home.component';
 export { FirstComponent } from './first/first.component';
