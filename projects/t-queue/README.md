@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-![T-Queue 22.02](./projects/t-queue/src/@docs/t-queue.png "T-Queue")
+![T-Queue 22.02](./src/@docs/t-queue.png "T-Queue")
 
 # Description
 
@@ -19,8 +19,7 @@ It's still work in progress... I hope will be a good starting point for some goo
 
 # Basic flow
 
-![T-Queue flow](./projects/t-queue/src/@docs/t-queue-flow.png "T-Queue flow")
-
+![T-Queue flow](./src/@docs/t-queue-flow.png "T-Queue flow")
 
 See ``./src/@docs/classes-graph.drawio`` file
 

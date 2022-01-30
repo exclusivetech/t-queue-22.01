@@ -1,0 +1,11 @@
+{
+  "name": "t-queue",
+  "version": "22.02.01",
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
